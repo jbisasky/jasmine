@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app='app'>
+	<head>
+		<title>Jasmine Test</title>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/moment/moment.js"></script>
+		<script src="js/bundle.js"></script>
+	</head>
+	<body ng-controller='AppCtrl as vm'>
+		<p>{{test}} {{vm.hello}}</p>
+		<p>{{vm.date}}</p>
+		<p>{{vm.test}}</p>
+		<p>{{vm.function1(2)}}</p>
+		<p>{{vm.function2(3)}}</p>
+		<p>{{vm.squareTest}}</p>
+	</body>
+</html>
